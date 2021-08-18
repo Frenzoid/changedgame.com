@@ -1,0 +1,32 @@
+{
+  "files": {
+    "main.css": "/static/css/main.9f4e681a.chunk.css",
+    "main.js": "/static/js/main.d2a47eb5.chunk.js",
+    "main.js.map": "/static/js/main.d2a47eb5.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.21440f59.js",
+    "runtime-main.js.map": "/static/js/runtime-main.21440f59.js.map",
+    "static/css/2.983f79de.chunk.css": "/static/css/2.983f79de.chunk.css",
+    "static/js/2.c6edbb01.chunk.js": "/static/js/2.c6edbb01.chunk.js",
+    "static/js/2.c6edbb01.chunk.js.map": "/static/js/2.c6edbb01.chunk.js.map",
+    "static/js/3.196e4b95.chunk.js": "/static/js/3.196e4b95.chunk.js",
+    "static/js/3.196e4b95.chunk.js.map": "/static/js/3.196e4b95.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/2.983f79de.chunk.css.map": "/static/css/2.983f79de.chunk.css.map",
+    "static/css/main.9f4e681a.chunk.css.map": "/static/css/main.9f4e681a.chunk.css.map",
+    "static/js/2.c6edbb01.chunk.js.LICENSE.txt": "/static/js/2.c6edbb01.chunk.js.LICENSE.txt",
+    "static/media/DragonSnow.cfb1eb83.webp": "/static/media/DragonSnow.cfb1eb83.webp",
+    "static/media/bg.74da4d3d.webm": "/static/media/bg.74da4d3d.webm",
+    "static/media/ch.b1963ed2.webp": "/static/media/ch.b1963ed2.webp",
+    "static/media/changed.1aa66c85.webp": "/static/media/changed.1aa66c85.webp",
+    "static/media/changedSpecial.120190c9.webp": "/static/media/changedSpecial.120190c9.webp",
+    "static/media/App.css": "/static/media/simhei.e74e336f.ttf",
+    "static/media/us.661a1782.webp": "/static/media/us.661a1782.webp"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.21440f59.js",
+    "static/css/2.983f79de.chunk.css",
+    "static/js/2.c6edbb01.chunk.js",
+    "static/css/main.9f4e681a.chunk.css",
+    "static/js/main.d2a47eb5.chunk.js"
+  ]
+}
