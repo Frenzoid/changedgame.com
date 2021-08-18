@@ -63,6 +63,7 @@ footer{
   text-decoration: none;
   margin-top: 0;
   margin-bottom: 1rem;
+  word-break: break-all;
 }
 
 #background-video {
@@ -131,6 +132,7 @@ footer{
 }
 
 #dragonSnow-logo{
+  margin-top: 20px;
 }
 
 #dragonSnow-logo > img {
@@ -138,7 +140,7 @@ footer{
 }
 
 #about-main{
-  min-height: 80vh;
+  min-height: 85vh;
 }
 
 @keyframes fadeInAnimation {
