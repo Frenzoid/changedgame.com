@@ -110,7 +110,6 @@ footer{
 #steam:hover {
   transition: all 1s ease;
   background-color: #1b28387a;
-  border: 1px solid #2764ad;
 }
 
 #changed-steam{
