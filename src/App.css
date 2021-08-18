@@ -2,6 +2,7 @@ body{
   background-color: black !important;
   font-family: simhei;
   font-size: 1.5rem;
+  color: white;
   /*
   background: url("../assets/portfolio/images/general/pbodybg.webp") fixed center;
   background-repeat: no-repeat;
@@ -15,12 +16,14 @@ header {
 
 footer{
   user-select: none;
+  color: rgb(165, 165, 165);
+  font-size: 1rem;
+  bottom: 0;
 }
 
 .displayed-content {
   position: relative;
   background-color: rgba(0, 0, 0, 0.7);
-  color: white;
 }
 
 .navbar-button {

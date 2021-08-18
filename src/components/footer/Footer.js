@@ -1,3 +1,5 @@
+import locale from "../../locale/locale";
+
 function Footer(props) {
 
     return (
@@ -10,6 +12,9 @@ function Footer(props) {
                     <a href={"https://www.patreon.com/DragonSnow"} className="footer-item">
                         <img alt="footer-badge" src={"https://img.shields.io/badge/-SnowDragon-A8131D?style=flat-square&logo=patreon&logoColor=white"} />
                     </a>
+                    <p className="text-center">
+                        {locale.footer.allrights}
+                    </p>
                     <a href={"https://space.bilibili.com/753832"} className="footer-item">
                         <img alt="footer-badge" src={"https://img.shields.io/badge/-雪之龙-FFFFFF?style=flat-square&logo=bilibili&logoColor=blue"} />
                     </a>
