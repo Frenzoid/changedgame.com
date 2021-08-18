@@ -1,4 +1,8 @@
-# Getting Started with Create React App
+# changedgame.com website's repo, made with ReactJS.
+
+Here you'll find all the resources used in the changegame.com website.
+
+
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
