@@ -5,7 +5,7 @@ export default new LocalizedStrings({
         navbar: {
             changed: "Changed",
             changedSpecial: "Special",
-            about: "About",
+            about: "About me",
             language: "Languge:",
         },
         steam: "Now available on Steam.",
@@ -27,14 +27,15 @@ export default new LocalizedStrings({
             The latest development versions are a reward for Patreon supporters, who help with development.`
         },
         about: {
-            description: ``,
+            name: "SnowDragon",
+            description: `Something about youself :)`,
         }
     },
     cn: {
         navbar: {
             changed: "Changed CH",
             changedSpecial: "Special CH",
-            about: "About CH",
+            about: "About me CH",
             language: "Languge CH: ",
         },
         steam: "Now available on Steam.",
@@ -57,7 +58,8 @@ export default new LocalizedStrings({
             `,
         },
         about: {
-            description: ``,
+            name: "雪之龙",
+            description: `Something about youself :)`,
         }
     }
 });

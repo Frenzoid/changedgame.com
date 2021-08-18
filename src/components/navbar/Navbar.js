@@ -4,7 +4,7 @@ import chflag from '../../images/ch.webp';
 function Navbar(props) {
 
     return (
-        <header className="displayed-content py-4">
+        <header className="displayed-content py-3">
             <div className="d-flex flex-row justify-content-around flex-wrap">
                 <div className="d-flex flex-row justify-content-center flex-wrap">
                     <div className="navbar-button mx-3" style={props.location === "changed" ? { color: "white" } : {}} onClick={() => props.setLocation('changed')}>{props.locale.navbar.changed}</div>

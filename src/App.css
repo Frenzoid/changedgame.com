@@ -9,6 +9,13 @@ body{
   */
 }
 
+header {
+  user-select: none;
+}
+
+footer{
+  user-select: none;
+}
 
 .displayed-content {
   position: relative;
@@ -18,7 +25,6 @@ body{
 
 .navbar-button {
   cursor: pointer;
-  user-select: none;
   color: rgb(165, 165, 165);
   border-bottom: 1px solid rgb(165, 165, 165);
 }
@@ -51,6 +57,12 @@ body{
 
 .footer-item:hover {
   border-bottom: 1px solid white;
+}
+
+.social-container > * {
+  text-decoration: none;
+  margin-top: 0;
+  margin-bottom: 1rem;
 }
 
 #background-video {
@@ -86,16 +98,47 @@ body{
   font-size: 1.5rem !important;
 }
 
+#steam{
+  transition: all 1s ease;
+  padding-top: 40px;
+}
+
+#steam:hover {
+  transition: all 1s ease;
+  background-color: #1b28387a;
+  border: 1px solid #2764ad;
+}
+
 #changed-steam{
-  transition: all 0.5s ease-in;
-  min-width: 100px;
+  position: relative;
+  padding-bottom: 200px;
+  padding-top: 40px;
+  overflow: hidden;
+  display: block;
+  margin: auto;
+  max-width: 50rem;
+}
+
+#changed-steam > iframe{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
 }
 
 #changed-steam:hover{
 }
 
-#changed-steam > a > img{
-  min-width: 10;
+#dragonSnow-logo{
+}
+
+#dragonSnow-logo > img {
+  border-radius: 25%;
+}
+
+#about-main{
+  min-height: 80vh;
 }
 
 @keyframes fadeInAnimation {
@@ -113,10 +156,9 @@ body{
 }
 
 
-
 /* width */
 ::-webkit-scrollbar {
-  width: 10px;
+  width: 5px;
 }
 
 /* Track */

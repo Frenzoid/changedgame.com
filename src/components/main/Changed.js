@@ -1,5 +1,4 @@
 import changedLogo from '../../images/changed.webp';
-import steamLogo from '../../images/steam.webp';
 
 function Changed(props) {
 
@@ -13,14 +12,14 @@ function Changed(props) {
                     src="https://www.youtube.com/embed/ATp2uhKw_qQ">
                 </iframe>
             </div>
-            <p id="changed-description" class="lead text-center mt-4">
+            <p id="changed-description" class="lead text-center mt-4 mb-4">
                 {props.locale.changed.description}
             </p>
-            <div id="changed-steam" className="text-center mt-5">
-                <h3 className="display-3">{props.locale.steam}</h3>
-                <a href="https://store.steampowered.com/app/814540/Changed/">
-                    <img className="img-fluid mx-auto d-block" src={steamLogo} alt="steam logo" />
-                </a>
+            <div id="steam">
+                <h3 className="display-3 text-center">{props.locale.steam}</h3>
+                <div id="changed-steam" className="text-center">
+                    <iframe className="img-fluid mx-auto d-block" src="https://store.steampowered.com/widget/814540/" frameborder="0" title="steam store page"></iframe>
+                </div>
             </div>
         </main>
     );
