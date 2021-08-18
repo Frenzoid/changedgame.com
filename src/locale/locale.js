@@ -12,7 +12,7 @@ export default new LocalizedStrings({
         changed: {
             description: `The story revolves around Colin,
             a human trapped in a mysterious laboratory. Not being able to remember how he got there and for how long has he been trapped,
-            he tries to escape the complex, yet he finds out he's surrounded by monster able to alter his very body and mind. Colin starts
+            he tries to escape the complex, yet he finds out he's surrounded by monsters able to alter his very body and mind. Colin starts
             a risky adventure where he will later find out why he was trapped, and what happend to the exterior world.`,
         },
         special: {
@@ -45,8 +45,8 @@ export default new LocalizedStrings({
         changed: {
             description: `故事围绕着科林展开
             一个被困在一个神秘实验室的人。 不记得他是如何到达那里的，以及他被困了多久，
-            他试图逃离这座建筑群，但他发现自己被一个能够改变自己身心的怪物包围。 科林开始
-            一次冒险的冒险，他稍后将找出自己被困的原因，以及外部世界发生了什么。.`,
+            他试图逃离这个建筑群，但他发现自己被怪物包围，能够改变他的身心。 科林开始
+            一次冒险的冒险，他稍后将找出自己被困的原因，以及外部世界发生了什么。`,
         },
         special: {
             description: `Changed-special 是原始 Changed 的​​重新制作版本/重制版。
