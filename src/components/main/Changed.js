@@ -14,7 +14,7 @@ function Changed(props) {
                     src="https://www.youtube.com/embed/ATp2uhKw_qQ">
                 </iframe>
             </div>
-            <p id="changed-description" class="lead text-center mt-4 mb-4">
+            <p id="changed-description" class="lead text-start m-4">
                 {props.locale.changed.description}
             </p>
             <div className="d-flex flex-row flex-wrap justify-content-between position-absolute" id="changed-characters">

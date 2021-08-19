@@ -9,7 +9,7 @@ function ChangedSpecial(props) {
             <div id="changed-logo">
                 <img className="img-fluid mx-auto d-block" src={changedSpecialLogo} alt="changed logo" />
             </div>
-            <p id="changed-description" class="lead text-center mt-4 mb-4">
+            <p id="changed-description" class="lead text-start m-4">
                 {props.locale.special.description}
             </p>
             <div className="d-flex flex-row flex-wrap justify-content-between position-absolute" id="changed-characters">

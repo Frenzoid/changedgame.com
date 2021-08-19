@@ -11,9 +11,15 @@ export default new LocalizedStrings({
         steam: "Now available on Steam.",
         changed: {
             description: `The story revolves around Colin,
-            a human trapped in a mysterious laboratory. Not being able to remember how he got there and for how long has he been trapped,
-            he tries to escape the complex, yet he finds out he's surrounded by monsters able to alter his very body and mind. Colin starts
-            a risky adventure where he will later find out why he was trapped, and what happend to the exterior world.`,
+            a human trapped in a mysterious laboratory.
+            Not being able to remember how he got there
+            and for how long has he been trapped,
+            he tries to escape the complex, yet he finds
+            out he's surrounded by monsters able to alter
+            his very body and mind.
+
+            Colin starts a risky adventure where he will later find out
+            why he was trapped, and what happend to the exterior world.`,
         },
         special: {
             description: `Changed-special is a remastered version/remake of the original Changed.
@@ -28,7 +34,7 @@ export default new LocalizedStrings({
         },
         about: {
             name: "SnowDragon",
-            description: `Something about youself :)`,
+            description: `An amateur video games creator.`,
         },
         footer: {
             allrights: "2021 Copyright. All Rights Reserved."
@@ -43,26 +49,34 @@ export default new LocalizedStrings({
         },
         steam: "现已登陆 Steam.",
         changed: {
-            description: `故事围绕着科林展开
-            一个被困在一个神秘实验室的人。 不记得他是如何到达那里的，以及他被困了多久，
-            他试图逃离这个建筑群，但他发现自己被怪物包围，能够改变他的身心。 科林开始
-            一次冒险的冒险，他稍后将找出自己被困的原因，以及外部世界发生了什么。`,
+            description: `Changed是一款颇有难度、拥有大量追逐战与初见杀的动作解谜游戏。
+            你在一个陌生的房间中苏醒，发觉自己被绑架到了一个神秘的研究所。
+            冒险中，你会遇到形形色色的未知生物，每一种都可以轻易“掠夺”你的躯体。
+            那些由粘液组成的生物不会伤害你，但它们会同化你、改变你的思想，使你成为它们的一员。
+            为了生存，你只能进行不断的探索，试图走出这个危机四伏的建筑。
+            在这个草木皆兵的新世界里，任何大意都可能会让你结束你的冒险。
+            外面的世界究竟发生了什么？暗自引导着你前进的究竟是谁？一切究竟是怎么回事？
+            种种谜团错综复杂，真相将在一步步交互与探索中慢慢浮出水面。
+            当然，要小心，不要迷失在这个建筑里…`,
         },
         special: {
-            description: `Changed-special 是原始 Changed 的​​重新制作版本/重制版。
-            游戏整体更大，有更多的房间、谜题、遭遇、动画、图片、人物和故事。现有内容也在各个方面进行了更新。
-            它还解决了原始版本中的大缺陷，例如 RNG 依赖。
-            如果您拥有 Changed，则当前可以在库中的“工具”下找到 Changed - special 的演示。您也可以从 Changed 的​​主菜单访问它。
-            游戏完成后，每位购买《Changed》的用户都将免费获得完整版的特别版，
-            它将与原版交换位置，两者都永久可供在 Steam 上购买 Changed 的​​任何人使用。
-            目前 Steam 上的 Changed-special 只是一个演示。
-            它没有跟上最新的开发版本。
-            最新的开发版本是对帮助开发的 Patreon 支持者的奖励.
+            description: `免费附赠可供下载的升级重制版：
+            拥有了Changed游戏本体的玩家，都会被赠予一部Changed-special。
+            special版可以看做是Changed原版游戏的升级重制版，拥有大量改动。
+            新版对原版的故事、画面、游戏机制等大量方面进行了改进与重新制作。
+            扩展了很多全新的关卡与生物的同时，也增加了很多插图、照片与动画。
+
+            Changed-special的安装方式：
+            拥有Changed原版游戏后，在Steam“工具”库中搜索Changed-special，安装即可。
+            请注意，Changed-special是作为“工具”附赠给玩家的，所以不会出现在“游戏”库中。
+            感谢玩家们选择并支持了Changed这部游戏，谢谢。
+            这个版本当前还在开发中，目前仅提供体验版，完整版将会在之后免费更新。
+            详情可见：patreon.com/DragonSnow
             `,
         },
         about: {
             name: "雪之龙",
-            description: `告诉我一些要在这里写的东西，关于你自己的描述。:)`,
+            description: `业余电子游戏创作者。`,
         },
         footer: {
             allrights: "版权所有：“2021 版权所有。保留所有权利。”."
