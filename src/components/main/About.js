@@ -1,4 +1,24 @@
+// Import of the image lightbox library
+import { SRLWrapper } from "simple-react-lightbox";
+
+// Importing all images
 import dragonSnowAvatar from '../../images/DragonSnow.webp';
+import gs1j from '../../images/game-screenshot-1.jpg';
+import gs1w from '../../images/game-screenshot-1.webp';
+import gs2j from '../../images/game-screenshot-2.jpg';
+import gs2w from '../../images/game-screenshot-2.webp';
+import gs3j from '../../images/game-screenshot-3.jpg';
+import gs3w from '../../images/game-screenshot-3.webp';
+import gs4j from '../../images/game-screenshot-4.jpg';
+import gs4w from '../../images/game-screenshot-4.webp';
+import gs5j from '../../images/game-screenshot-5.jpg';
+import gs5w from '../../images/game-screenshot-5.webp';
+import gs6j from '../../images/game-screenshot-6.jpg';
+import gs6w from '../../images/game-screenshot-6.webp';
+import gs7j from '../../images/game-screenshot-7.jpg';
+import gs7w from '../../images/game-screenshot-7.webp';
+import gs8j from '../../images/game-screenshot-8.jpg';
+import gs8w from '../../images/game-screenshot-8.webp';
 
 function About(props) {
 
@@ -31,9 +51,66 @@ function About(props) {
                     </a>
                 </div>
             </div>
-            <p id="changed-description" className="lead text-center mt-4">
+            <p className="lead text-center mt-4">
                 {props.locale.about.description}
             </p>
+            <hr></hr>
+            <p className="lead text-start m-4 formatted-string">
+                {props.locale.about.gamedescription}
+            </p>
+            <SRLWrapper>
+                <div className="d-flex flex-row flex-wrap justify-content-around game-screenshots pt-4">
+
+                    <div className="m-2">
+                        <a href={gs1j} data-id="changed1" data-group="changed">
+                            <img width="100%" src={gs1w}
+                                alt="" />
+                        </a>
+                    </div>
+                    <div className="m-2">
+                        <a href={gs2j} data-id="changed2" data-group="changed">
+                            <img width="100%" src={gs2w}
+                                alt="" />
+                        </a>
+                    </div>
+                    <div className="m-2">
+                        <a href={gs3j} data-id="changed3" data-group="changed">
+                            <img width="100%" src={gs3w}
+                                alt="" />
+                        </a>
+                    </div>
+                    <div className="m-2">
+                        <a href={gs4j} data-id="changed4" data-group="changed">
+                            <img width="100%" src={gs4w}
+                                alt="" />
+                        </a>
+                    </div>
+                    <div className="m-2">
+                        <a href={gs5j} data-id="changed5" data-group="changed">
+                            <img width="100%" src={gs5w}
+                                alt="" />
+                        </a>
+                    </div>
+                    <div className="m-2">
+                        <a href={gs6j} data-id="changed6" data-group="changed">
+                            <img width="100%" src={gs6w}
+                                alt="" />
+                        </a>
+                    </div>
+                    <div className="m-2">
+                        <a href={gs7j} data-id="changed7" data-group="changed">
+                            <img width="100%" src={gs7w}
+                                alt="" />
+                        </a>
+                    </div>
+                    <div className="m-2">
+                        <a href={gs8j} data-id="changed8" data-group="changed">
+                            <img width="100%" src={gs8w}
+                                alt="" />
+                        </a>
+                    </div>
+                </div>
+            </SRLWrapper>
         </main>
     );
 }

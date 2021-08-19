@@ -69,6 +69,14 @@ footer{
   word-break: break-all;
 }
 
+.game-screenshots > div{
+  width: 30%;
+}
+
+.formatted-string {
+  white-space: pre-line;
+}
+
 #background-video {
   object-fit: cover;
   position: fixed;

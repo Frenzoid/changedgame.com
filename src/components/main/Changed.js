@@ -14,7 +14,7 @@ function Changed(props) {
                     src="https://www.youtube.com/embed/ATp2uhKw_qQ">
                 </iframe>
             </div>
-            <p id="changed-description" class="lead text-start m-4">
+            <p id="changed-description" class="lead text-center m-4 formatted-string">
                 {props.locale.changed.description}
             </p>
             <div className="d-flex flex-row flex-wrap justify-content-between position-absolute" id="changed-characters">
@@ -26,7 +26,7 @@ function Changed(props) {
                 </div>
             </div>
             <div id="steam">
-                <h3 className="display-3 text-center">{props.locale.steam}</h3>
+                <h3 className="display-3 text-center ">{props.locale.steam}</h3>
                 <div id="steam-widget" className="text-center">
                     <iframe className="img-fluid mx-auto d-block" src="https://store.steampowered.com/widget/814540/" frameborder="0" title="steam store page"></iframe>
                 </div>
