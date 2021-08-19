@@ -1,3 +1,4 @@
+
 body{
   background-color: black !important;
   font-family: simhei;
@@ -81,6 +82,19 @@ footer{
   display: none;
 }
 
+#nav-primary{
+  max-height: 50px;
+  width: 50px;
+}
+
+#nav-primary > img {
+  height: 100%;
+}
+
+#nav-secondary{
+  width: 100%;
+}
+
 #changed-logo {
 }
 
@@ -102,26 +116,20 @@ footer{
 }
 
 #steam{
-  transition: all 1s ease;
   padding-top: 40px;
 }
 
-#steam:hover {
-  transition: all 1s ease;
-  background-color: #1b28387a;
-}
-
-#changed-steam{
+#steam-widget{
   position: relative;
   padding-bottom: 200px;
   padding-top: 40px;
   overflow: hidden;
   display: block;
   margin: auto;
-  max-width: 50rem;
+  max-width: 800px;
 }
 
-#changed-steam > iframe{
+#steam-widget > iframe{
   position: absolute;
   top: 0;
   left: 0;
@@ -129,7 +137,8 @@ footer{
   height: 100%;
 }
 
-#changed-steam:hover{
+#changed-characters{
+  width: 100%;
 }
 
 #dragonSnow-logo{
@@ -143,21 +152,6 @@ footer{
 #about-main{
   min-height: 85vh;
 }
-
-@keyframes fadeInAnimation {
-  0% {
-      opacity: 0;
-  }
-  100% {
-      opacity: 1;
-  }
-}
-
-@font-face {
-  font-family: 'simhei';
-  src: local('simhei'), url(./fonts/simhei.ttf);
-}
-
 
 /* width */
 ::-webkit-scrollbar {
@@ -177,4 +171,29 @@ footer{
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
   background: white;
+}
+
+
+@keyframes fadeInAnimation {
+  0% {
+      opacity: 0;
+  }
+  100% {
+      opacity: 1;
+  }
+}
+
+@font-face {
+  font-family: 'simhei';
+  src: local('simhei'), url(./fonts/simhei.ttf);
+}
+
+@media (max-width: 1200px) {
+  #changed-characters {
+    display: none !important;
+  }
+
+  #nav-primary{
+    display: none !important;
+  }
 }
