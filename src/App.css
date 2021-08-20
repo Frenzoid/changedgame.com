@@ -1,25 +1,34 @@
 
+/* tags */
 body{
   background-color: black !important;
   font-family: simhei;
   font-size: 1.5rem;
   color: white;
-  /*
-  background: url("../assets/portfolio/images/general/pbodybg.webp") fixed center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  */
-}
-
-header {
-  user-select: none;
 }
 
 footer{
-  user-select: none;
   color: rgb(165, 165, 165);
   font-size: 1rem;
   bottom: 0;
+}
+
+
+/* classes */
+.clean-links *:is(a) {
+  text-decoration: none;
+}
+
+.word-breakable {
+  word-break: break-all;
+}
+
+.no-selectable {
+  user-select: none;
+}
+
+.literal-string-format {
+  white-space: pre-line;
 }
 
 .displayed-content {
@@ -53,30 +62,26 @@ footer{
 }
 
 .footer-item {
-  margin-left: 10px;
-  margin-right: 10px;
-  border-bottom: 1px solid rgb(146, 146, 146);
+  border-bottom: 1px solid rgb(0, 0, 0);
 }
 
 .footer-item:hover {
   border-bottom: 1px solid white;
 }
 
-.social-container > * {
-  text-decoration: none;
-  margin-top: 0;
-  margin-bottom: 1rem;
-  word-break: break-all;
-}
-
 .game-screenshots > div{
   width: 30%;
+  transition: all .1s;
+  transform: 1s;
 }
 
-.formatted-string {
-  white-space: pre-line;
+.game-screenshots > div:hover {
+  transform: scale(1.05);
+  border: 1px solid white;
 }
 
+
+/* unique sections / ids */
 #background-video {
   object-fit: cover;
   position: fixed;
@@ -91,43 +96,31 @@ footer{
 }
 
 #nav-primary{
-  max-height: 50px;
-  width: 50px;
-}
-
-#nav-primary > img {
-  height: 100%;
-}
-
-#nav-secondary{
   width: 100%;
 }
 
-#changed-logo {
-}
-
-#changed-logo > img {
+#main-logo > img {
   min-width: 50%;
 }
 
-#changed-video{
+#main-video{
   height: 300px;
 }
 
-#changed-video > iframe {
+#main-video > iframe {
   min-width: 40%;
   height: 100%;
 }
 
-#changed-description{
+#main-description{
   font-size: 1.5rem !important;
 }
 
-#steam{
+#steam-section{
   padding-top: 40px;
 }
 
-#steam-widget{
+#steam-section-widget{
   position: relative;
   padding-bottom: 200px;
   padding-top: 40px;
@@ -137,7 +130,7 @@ footer{
   max-width: 800px;
 }
 
-#steam-widget > iframe{
+#steam-section-widget > iframe{
   position: absolute;
   top: 0;
   left: 0;
@@ -149,18 +142,16 @@ footer{
   width: 100%;
 }
 
-#dragonSnow-logo{
+#sn-logo{
   margin-top: 20px;
 }
 
-#dragonSnow-logo > img {
+#sn-logo > img {
   border-radius: 25%;
 }
 
-#about-main{
-  min-height: 85vh;
-}
 
+/* scroll bar */
 /* width */
 ::-webkit-scrollbar {
   width: 5px;
@@ -182,6 +173,7 @@ footer{
 }
 
 
+/* @s */
 @keyframes fadeInAnimation {
   0% {
       opacity: 0;
@@ -198,10 +190,6 @@ footer{
 
 @media (max-width: 1200px) {
   #changed-characters {
-    display: none !important;
-  }
-
-  #nav-primary{
     display: none !important;
   }
 }

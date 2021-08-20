@@ -5,11 +5,8 @@ import puroSweep from '../../images/puroSweeping.gif';
 function Navbar(props) {
 
     return (
-        <header className="displayed-content py-3 d-flex flex-row">
-            <div id="nav-primary" className="ms-3">
-                <img src={puroSweep} alt="puro sweeping" />
-            </div>
-            <div id="nav-secondary" className="d-flex flex-row justify-content-around flex-wrap">
+        <header className="displayed-content py-3 d-flex flex-row no-selectable">
+            <div id="nav-primary" className="d-flex flex-row justify-content-around flex-wrap">
                 <div className="d-flex flex-row justify-content-center flex-wrap">
                     <div className="navbar-button mx-3 my-auto" style={props.location === "changed" ? { color: "white" } : {}} onClick={() => props.setLocation('changed')}>{props.locale.navbar.changed}</div>
                     <div className="navbar-button mx-3 my-auto" style={props.location === "changedSpecial" ? { color: "white" } : {}} onClick={() => props.setLocation('changedSpecial')}>{props.locale.navbar.changedSpecial}</div>
