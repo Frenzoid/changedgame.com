@@ -1,10 +1,10 @@
-# changedgame.com website's repo, made with ReactJS.
+# changedgame.com website's repo, made with React.
 
-Here you'll find all the resources used in the changegame.com website.
+Here you'll find all the resources used in the [changegame.com](https://changedgame.com) website.
 
+The build folder is also public because its easier for me to git push the changes and then, directly git pull when delopying, with zero downtime.
 
-
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+----------------------------------------------------
 
 ## Available Scripts
 
