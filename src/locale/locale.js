@@ -23,7 +23,7 @@ export default new LocalizedStrings({
         },
         about: {
             name: "SnowDragon",
-            description: `An amateur video games creator.`,
+            description: `A passionate indie video games developer.`,
             gamedescription: `
             Game features: \n
             * The protagonist can only use simple movements and sprints because he is the prey of all creatures.
