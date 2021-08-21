@@ -1,4 +1,4 @@
-# changedgame.com website's repo, made with React.
+# changedgame.com website's repo.
 
 Here you'll find all the resources used in the [changedgame.com](https://changedgame.com) website.
 
