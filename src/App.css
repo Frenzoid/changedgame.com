@@ -95,7 +95,7 @@ footer{
   display: none;
 }
 
-#nav-primary{
+#navbar{
   width: 100%;
 }
 
@@ -122,7 +122,7 @@ footer{
 
 #steam-section-widget{
   position: relative;
-  padding-bottom: 200px;
+  padding-bottom: 150px;
   padding-top: 40px;
   overflow: hidden;
   display: block;
@@ -150,6 +150,13 @@ footer{
   border-radius: 25%;
 }
 
+#puro-sweeping{
+  width: 5rem;
+}
+
+#puro-sweeping > img {
+  width: 100%;
+}
 
 /* scroll bar */
 /* width */
@@ -174,6 +181,16 @@ footer{
 
 
 /* @s */
+@media (max-width: 1200px) {
+  .hide-on-ms{
+    display: none !important;
+  }
+
+  #full-copyright-notice{
+    display: block !important;
+  }
+}
+
 @keyframes fadeInAnimation {
   0% {
       opacity: 0;
@@ -186,10 +203,4 @@ footer{
 @font-face {
   font-family: 'simhei';
   src: local('simhei'), url(./fonts/simhei.ttf);
-}
-
-@media (max-width: 1200px) {
-  #changed-characters {
-    display: none !important;
-  }
 }

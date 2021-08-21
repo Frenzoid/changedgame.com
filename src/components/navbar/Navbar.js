@@ -1,12 +1,11 @@
-import usflag from '../../images/us.webp';
-import chflag from '../../images/ch.webp';
-import puroSweep from '../../images/puroSweeping.gif';
+import usflag from '../../images/locale-flags/us.webp';
+import chflag from '../../images/locale-flags/ch.webp';
 
 function Navbar(props) {
 
     return (
         <header className="displayed-content py-3 d-flex flex-row no-selectable">
-            <div id="nav-primary" className="d-flex flex-row justify-content-around flex-wrap">
+            <div id="navbar" className="d-flex flex-row justify-content-around flex-wrap">
                 <div className="d-flex flex-row justify-content-center flex-wrap">
                     <div className="navbar-button mx-3 my-auto" style={props.location === "changed" ? { color: "white" } : {}} onClick={() => props.setLocation('changed')}>{props.locale.navbar.changed}</div>
                     <div className="navbar-button mx-3 my-auto" style={props.location === "changedSpecial" ? { color: "white" } : {}} onClick={() => props.setLocation('changedSpecial')}>{props.locale.navbar.changedSpecial}</div>

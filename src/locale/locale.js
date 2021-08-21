@@ -37,7 +37,9 @@ export default new LocalizedStrings({
             * Approximately six hours of playable length (if possible).`,
         },
         footer: {
-            allrights: "2021 Copyright. All Rights Reserved."
+            allrightsnotice: "2021 Copyright.",
+            copyrightnotice: "All Rights Reserved.",
+            fullnotice: "2021 Copyright. © All Rights Reserved.",
         }
     },
     cn: {
@@ -75,7 +77,9 @@ export default new LocalizedStrings({
             * 大约六小时的可游戏长度（如果可能的话）。`,
         },
         footer: {
-            allrights: "版权所有：“2021 版权所有。保留所有权利。”."
+            allrightsnotice: "2021 版权所有。",
+            copyrightnotice: "版权所有。",
+            fullnotice: "2021 版权所有。 © 版权所有。",
         }
     }
 });

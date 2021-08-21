@@ -1,6 +1,6 @@
-import changedLogo from '../../images/changed.webp';
-import colin from '../../images/Colin.webp';
-import puro from '../../images/Puro.webp';
+import changedLogo from '../../images/logos/changed.webp';
+import colin from '../../images/game-characters/Colin.webp';
+import puro from '../../images/game-characters/Puro.webp';
 
 function Changed(props) {
 
@@ -17,11 +17,11 @@ function Changed(props) {
             <p id="main-description" class="lead text-center m-4 literal-string-format">
                 {props.locale.changed.description}
             </p>
-            <div className="d-flex flex-row flex-wrap justify-content-between position-absolute" id="changed-characters">
-                <div className="changed-character mt-5 ms-5">
+            <div id="changed-characters" className="d-flex flex-row flex-wrap justify-content-between position-absolute hide-on-ms">
+                <div className="mt-5 ms-5">
                     <img className="img-fluid" src={colin} alt="colin" />
                 </div>
-                <div className="changed-character me-5">
+                <div className="me-5">
                     <img className="img-fluid" src={puro} alt="puro" />
                 </div>
             </div>
