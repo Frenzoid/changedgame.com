@@ -6,7 +6,7 @@ export default new LocalizedStrings({
             changed: "Changed",
             changedSpecial: "Special",
             about: "About",
-            language: "Languge:",
+            language: "Language:",
         },
         steam: "Now available on Steam.",
         changed: {
