@@ -25,9 +25,6 @@ function Footer(props) {
                         <div className="mt-auto hide-on-ms">
                             {locale.footer.allrightsnotice}
                         </div>
-                        <div className="mt-auto d-none text-center" id="full-copyright-notice">
-                            {locale.footer.fullnotice}
-                        </div>
                     </div>
                     <div className="d-flex flex-row flex-wrap justify-content-center">
                         <a href={"https://space.bilibili.com/753832"} className="footer-item pt-1 mx-3 my-auto">
@@ -37,6 +34,9 @@ function Footer(props) {
                             <img alt="footer-badge" src={"https://img.shields.io/badge/-SnowDragon-1b2838?style=flat-square&logo=steam&logoColor=white"} />
                         </a>
                     </div>
+                </div>
+                <div className="mt-3 d-none text-center" id="full-copyright-notice">
+                    {locale.footer.fullnotice}
                 </div>
             </div>
         </footer>
