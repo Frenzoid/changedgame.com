@@ -28,7 +28,7 @@ function Footer(props) {
                     </div>
                     <div className="d-flex flex-row flex-wrap justify-content-center">
                         <a href={"https://space.bilibili.com/753832"} className="footer-item pt-1 mx-3 my-auto">
-                            <img alt="footer-badge" src={"https://img.shields.io/badge/-󠀡󠀡󠀡雪之龙󠀡󠀡󠀡󠀡󠀡-F2F2F2?style=flat-square&logo=bilibili&logoColor=blue"} />
+                            <img alt="footer-badge" src={"https://img.shields.io/badge/-󠀡󠀡󠀡雪之龙󠀡󠀡󠀡󠀡󠀡-3675ea?style=flat-square&logo=bilibili&logoColor=white"} />
                         </a>
                         <a href={"https://steamcommunity.com/profiles/76561198181374861"} className="footer-item pt-1 mx-3 my-auto">
                             <img alt="footer-badge" src={"https://img.shields.io/badge/-SnowDragon-1b2838?style=flat-square&logo=steam&logoColor=white"} />
