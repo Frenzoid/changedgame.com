@@ -3,6 +3,7 @@
 Here you'll find all the resources used in the [changedgame.com](https://changedgame.com) website.
 
 Website hosted with gh-pages, using a custom domain ( thanks github for the free website hosting :D )
+
 ----------------------------------------------------
 
 ## Available Scripts
