@@ -2,8 +2,7 @@
 
 Here you'll find all the resources used in the [changedgame.com](https://changedgame.com) website.
 
-The build folder is un-ignored because its easier for me to git push the changes and then, directly git pull when delopying, with zero downtime.
-
+Website hosted with gh-pages, using a custom domain ( thanks github for the free website hosting :D )
 ----------------------------------------------------
 
 ## Available Scripts
