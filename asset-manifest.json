@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/changedgame.com/static/css/main.62984c1d.chunk.css",
-    "main.js": "/changedgame.com/static/js/main.3fc3344b.chunk.js",
-    "main.js.map": "/changedgame.com/static/js/main.3fc3344b.chunk.js.map",
+    "main.js": "/changedgame.com/static/js/main.4c9f7c43.chunk.js",
+    "main.js.map": "/changedgame.com/static/js/main.4c9f7c43.chunk.js.map",
     "runtime-main.js": "/changedgame.com/static/js/runtime-main.0785a426.js",
     "runtime-main.js.map": "/changedgame.com/static/js/runtime-main.0785a426.js.map",
     "static/css/2.983f79de.chunk.css": "/changedgame.com/static/css/2.983f79de.chunk.css",
@@ -43,6 +43,6 @@
     "static/css/2.983f79de.chunk.css",
     "static/js/2.a0a4234f.chunk.js",
     "static/css/main.62984c1d.chunk.css",
-    "static/js/main.3fc3344b.chunk.js"
+    "static/js/main.4c9f7c43.chunk.js"
   ]
 }
